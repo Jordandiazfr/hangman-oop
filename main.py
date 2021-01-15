@@ -6,7 +6,6 @@ def main():
     game_on = True
     # Creating an instance
     hangman = Hanged()
-    print(hangman.final_word)
     print(logo)
     #  Get the user guess input
 
