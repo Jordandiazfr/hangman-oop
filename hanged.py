@@ -23,6 +23,10 @@ class Hanged:
         return blanks
 
     def transition(self, guess):
-        for letter in range(self.length):
-            if guess == self.final_word[letter]:
-                self.transition_word[letter] = guess
+        if guess not in self.guessed_words:
+            for letter in range(self.length):
+                if guess == self.final_word[letter]:
+                    self.transition_word[letter] = guess
+                    self.guessed_words.append(guess)
+        else:
+            print("You already guessed that word. ")
