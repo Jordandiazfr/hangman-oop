@@ -48,7 +48,8 @@ if __name__ == '__main__':
     try:
         logging.info("+-------------------INITIALIZING GAME------------------------+")
         main()
-    except:
+        logging.info("+-------------------GAME SUCCESSFULLY ENDED------------------+")
+    except Exception:
         logging.exception("Unable to start the game")
         print("Unable to start the game, check the logs for more INFO about why")
         raise

@@ -1,0 +1,27 @@
+[2021-01-20 12:30:04]: INFO: Import of modules succeded
+[2021-01-20 12:30:04]: INFO: +-------------------INITIALIZING GAME------------------------+
+[2021-01-20 12:30:04]: DEBUG: Starting new HTTPS connection (1): random-word-api.herokuapp.com:443
+[2021-01-20 12:30:05]: DEBUG: https://random-word-api.herokuapp.com:443 "GET /word?number=1 HTTP/1.1" 200 None
+[2021-01-20 12:30:05]: INFO: RANDOM WORD SUCCESFULLY LOADED FROM THE API
+[2021-01-20 12:30:05]: INFO: Object initiated
+[2021-01-20 12:30:05]: INFO: Start of game_on
+[2021-01-20 12:30:15]: DEBUG: User input was not the expected
+0[2021-01-20 12:30:46]: INFO: Import of modules succeded
+[2021-01-20 12:30:46]: INFO: +-------------------INITIALIZING GAME------------------------+
+[2021-01-20 12:30:46]: DEBUG: Starting new HTTPS connection (1): random-word-api.herokuapp.com:443
+[2021-01-20 12:30:46]: DEBUG: https://random-word-api.herokuapp.com:443 "GET /word?number=1 HTTP/1.1" 200 None
+[2021-01-20 12:30:46]: INFO: RANDOM WORD SUCCESFULLY LOADED FROM THE API
+[2021-01-20 12:30:46]: INFO: Object initiated
+[2021-01-20 12:30:46]: INFO: Start of game_on
+[2021-01-20 12:30:51]: DEBUG: User input was not the expected
+[2021-01-20 12:30:53]: DEBUG: User input was not the expected
+[2021-01-20 12:30:54]: DEBUG: User input was not the expected
+[2021-01-20 12:30:54]: DEBUG: User input was not the expected
+[2021-01-20 12:34:23]: INFO: Import of modules succeded
+[2021-01-20 12:34:23]: INFO: +-------------------INITIALIZING GAME------------------------+
+[2021-01-20 12:34:23]: DEBUG: Starting new HTTPS connection (1): random-word-api.herokuapp.com:443
+[2021-01-20 12:34:24]: DEBUG: https://random-word-api.herokuapp.com:443 "GET /word?number=1 HTTP/1.1" 200 None
+[2021-01-20 12:34:24]: INFO: RANDOM WORD SUCCESFULLY LOADED FROM THE API
+[2021-01-20 12:34:24]: INFO: Object HANGED initiated
+[2021-01-20 12:34:24]: INFO: Start of game_on
+[2021-01-20 12:34:32]: DEBUG: User input was not the expected

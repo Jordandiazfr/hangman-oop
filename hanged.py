@@ -37,7 +37,7 @@ class Hanged:
         self.transition_word = self.initial_blank
         self.length = len(self.final_word)
         self.guessed_words = []
-        logging.info("Object initiated")
+        logging.info("Object HANGED initiated")
 
     def create_blanks(self) -> list:
         blanks = ['_' for i in self.final_word]
