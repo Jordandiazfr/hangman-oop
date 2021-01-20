@@ -1,6 +1,12 @@
+import logging
+import pathlib
+import os
 from hanged import Hanged
 from art import logo
-
+logfile = pathlib.Path(f'{os.getcwd()}/logs.log')
+logging.basicConfig(filename=logfile, format='%(asctime)s: %(levelname)s: %(message)s', level=logging.DEBUG,
+                         datefmt='[%Y-%m-%d %H:%M:%S]')
+logging.info("Import of modules succeded")
 
 def main():
     game_on = True
@@ -10,6 +16,7 @@ def main():
     #  Get the user guess input
 
     # Perpetual guess
+    logging.info("Start of while loop")
     while game_on:
         guess = input("Guess a letter: ").lower()
         if guess in hangman.final_word:
@@ -30,7 +37,7 @@ def main():
             print("Final word was: %s" % hangman.final_word
                   )
             game_on = False
-
+    logger.info("End of while loop")
 
 if __name__ == '__main__':
     main()
