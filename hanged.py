@@ -1,12 +1,19 @@
 from art import stages
 import requests
-
+import logging
 
 def load_word():
-    word = requests.get("https://random-word-api.herokuapp.com/word?number=1")
-    purified_word = word.text[2:-2]
-    list_word = [i for i in purified_word]
-    return list_word
+    try:
+        api = "https://random-word-api.herokuapp.om/word?number=1"
+        word = requests.get()
+        purified_word = word.text[2:-2]
+        list_word = [i for i in purified_word]
+        logging.info("RANDOM WORD SUCCESFULLY LOADED FROM THE API")
+        return list_word
+    except:
+        logging.error("API ERROR: Couldn't complete the get request from: %s " % api)
+        return 0
+
 
 class Hanged:
     def __init__(self):
@@ -29,4 +36,4 @@ class Hanged:
                     self.transition_word[letter] = guess
                     self.guessed_words.append(guess)
         else:
-            print("You already guessed that word. ")
+            print("You already guessed that word.")

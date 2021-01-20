@@ -37,8 +37,14 @@ def main():
             print("Final word was: %s" % hangman.final_word
                   )
             game_on = False
-    logger.info("End of while loop")
+    logging.info("End of while loop")
 
 if __name__ == '__main__':
-    main()
+    try:
+        logging.info("+-------------------INITIALIZING GAME------------------------+")
+        main()
+    except:
+        logging.exception("Unable to start the game")
+        print("Unable to start the game, check the logs for more INFO about why")
+        raise
 
