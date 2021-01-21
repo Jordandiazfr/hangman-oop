@@ -30,3 +30,9 @@
 [2021-01-21 10:18:39]: INFO: RANDOM WORD SUCCESFULLY LOADED FROM THE API
 [2021-01-21 10:18:39]: INFO: Object HANGED initiated
 [2021-01-21 10:18:39]: INFO: Start of game_on
+[2021-01-21 10:28:10]: INFO: Import of modules succeded
+[2021-01-21 10:28:10]: DEBUG: Starting new HTTPS connection (1): random-word-api.herokuapp.com:443
+[2021-01-21 10:28:10]: DEBUG: https://random-word-api.herokuapp.com:443 "GET /word?number=1 HTTP/1.1" 200 None
+[2021-01-21 10:28:10]: INFO: RANDOM WORD SUCCESFULLY LOADED FROM THE API
+[2021-01-21 10:28:10]: INFO: Object HANGED initiated
+[2021-01-21 10:28:10]: INFO: Start of game_on
